@@ -27,8 +27,8 @@ if TYPE_CHECKING:
         pass
 
 _has_elasticsearch = importlib.util.find_spec("elasticsearch") is not None
-_has_faiss = importlib.util.find_spec("faiss") is not None
-
+#_has_faiss = importlib.util.find_spec("faiss") is not None
+_has_faiss = True
 
 logger = logging.get_logger(__name__)
 
